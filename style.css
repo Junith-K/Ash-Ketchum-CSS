@@ -67,7 +67,7 @@ body {
   border-color: black transparent transparent transparent;
   border-radius: 25% 25% 10% 10%;
   border-style: solid;
-  z-index: 1;
+  z-index: 2;
 }
 
 .hat-white {
@@ -75,22 +75,22 @@ body {
   aspect-ratio: 1;
   background-color: transparent;
   position: absolute;
-  top: 53.8%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 40% 40% 0% 0%;
   border-color: white transparent transparent transparent;
   border-style: solid;
-  border-width: 2.5rem;
+  border-width: 2rem;
   z-index: 3;
 }
 
 .hat-shadow {
-  width: 9%;
+  width: 10%;
   aspect-ratio: 1;
   background-color: transparent;
   position: absolute;
-  top: 53%;
+  top: 53.9%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 40% 40% 0% 0%;
@@ -109,7 +109,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  clip-path: polygon(10% 25%, 50% 0, 90% 25%, 85% 85%, 50% 100%, 15% 85%);
+  clip-path: polygon(10% 25%, 50% -100%, 90% 25%, 80% 85%, 50% 100%, 20% 85%);
   z-index: 1;
 }
 
@@ -119,8 +119,8 @@ body {
   background-color: #f9a97f;
   position: absolute;
   top: 51%;
-  left: 44.5%;
-  transform: translate(-50%, -50%) rotate(0.5turn);
+  left: 44.75%;
+  transform: translate(-50%, -50%) rotate(0.485turn);
   z-index: 1;
 
   clip-path: polygon(43% 0%, 84% 28%, 94% 71%, 55% 100%, 0 50%);
@@ -134,8 +134,8 @@ body {
   position: absolute;
   top: 51%;
   filter: blur(5px);
-  left: 44%;
-  transform: translate(-50%, -50%) rotate(0turn);
+  left: 44.2%;
+  transform: translate(-50%, -50%) rotate(-0.03turn);
   clip-path: polygon(0 50%, 100% 100%, 100% 0);
   z-index: 1;
 }
@@ -146,8 +146,8 @@ body {
   background-color: #f9a97f;
   position: absolute;
   top: 51%;
-  left: 55.9%;
-  transform: translate(-50%, -50%) rotate(0.018turn);
+  left: 55.55%;
+  transform: translate(-50%, -50%) rotate(0.03turn);
   z-index: 1;
 
   clip-path: polygon(43% 0, 87% 27%, 78% 74%, 40% 100%, 0 50%);
@@ -160,16 +160,16 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   top: 51%;
-  left: 56.2%;
+  left: 55.9%;
   filter: blur(5px);
-  transform: translate(-50%, -50%) rotate(0.5turn);
+  transform: translate(-50%, -50%) rotate(0.53turn);
   clip-path: polygon(0 50%, 100% 100%, 100% 0);
   z-index: 1;
 }
 
 .eye-r {
   width: 2%;
-  height: 8%;
+  height: 6.5%;
   position: absolute;
   overflow: hidden;
   top: 47%;
@@ -184,11 +184,11 @@ body {
 }
 
 .eye-r-shadow-w {
-  width: 36%;
-  height: 35%;
+  width: 37%;
+  height: 40%;
   position: absolute;
-  top: 35%;
-  left: 32%;
+  top: 20%;
+  left: 31%;
   border-radius: 100% 100% 100% 100% / 50% 50% 0% 0%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
@@ -198,7 +198,7 @@ body {
   width: 20%;
   height: 20%;
   position: absolute;
-  top: 33%;
+  top: 20%;
   left: 40%;
   border-radius: 100%;
   background-color: white;
@@ -207,10 +207,10 @@ body {
 
 .eye-r-in {
   width: 40%;
-  height: 75%;
+  height: 90%;
   background-color: #c26241;
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 28%;
   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
   border: 0.1px;
@@ -224,7 +224,7 @@ body {
   height: 25%;
   background-color: black;
   position: absolute;
-  top: 59%;
+  top: 45%;
   left: 38%;
   border-radius: 100%;
   z-index: 1;
@@ -232,7 +232,7 @@ body {
 
 .eye-l {
   width: 2%;
-  height: 8%;
+  height: 6.5%;
   position: absolute;
   overflow: hidden;
   top: 47%;
@@ -247,11 +247,11 @@ body {
 }
 
 .eye-l-shadow-w {
-  width: 36%;
-  height: 35%;
+  width: 37%;
+  height: 40%;
   position: absolute;
-  top: 35%;
-  left: 32%;
+  top: 20%;
+  left: 31%;
   border-radius: 100% 100% 100% 100% / 50% 50% 0% 0%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
@@ -261,7 +261,7 @@ body {
   width: 20%;
   height: 20%;
   position: absolute;
-  top: 33%;
+  top: 20%;
   left: 40%;
   border-radius: 100%;
   background-color: white;
@@ -270,10 +270,10 @@ body {
 
 .eye-l-in {
   width: 40%;
-  height: 75%;
+  height: 90%;
   background-color: #c26241;
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 28%;
   border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
   border: 0.1px;
@@ -287,11 +287,12 @@ body {
   height: 25%;
   background-color: black;
   position: absolute;
-  top: 59%;
+  top: 45%;
   left: 38%;
   border-radius: 100%;
   z-index: 1;
 }
+
 
 .nose-main {
   width: 1%;
@@ -319,24 +320,12 @@ body {
   z-index: 1;
 }
 
-/* .wrinkle-r {
-  width: 1%;
-  height: 1%;
-  position: absolute;
-  top: 50.5%;
-  left: 45.7%;
-  transform: translate(-50%, -50%);
-  font-weight: 500;
-  transform: rotate(0.80turn);
-  font-family: 'Roboto', sans-serif;
-} */
-
 .mouth {
-  width: 6%;
+  width: 5%;
   height: 2%;
   background-color: transparent;
   position: absolute;
-  top: 57%;
+  top: 56%;
   left: 50.15%;
   transform: translate(-50%, -50%);
   border-color: transparent transparent black transparent;
@@ -373,8 +362,8 @@ body {
   height: 10%;
   position: absolute;
   top: 50%;
-  left: 43.42%;
-  transform: translate(-50%, -50%) rotate(0.5turn);
+  left: 43.63%;
+  transform: translate(-50%, -50%) rotate(0.49turn);
   background: #29444a;
   background-repeat: no-repeat;
   clip-path: polygon(43% 81%, 74% 43%, 82% 100%, 18% 100%, 0% 38%);
@@ -408,7 +397,7 @@ body {
   height: 10%;
   position: absolute;
   top: 60%;
-  left: 57.15%;
+  left: 56.5%;
   transform: translate(-50%, -50%) rotate(0.35turn);
   background: #29444a;
   background-repeat: no-repeat;
@@ -421,8 +410,8 @@ body {
   height: 13%;
   position: absolute;
   top: 49%;
-  left: 56.65%;
-  transform: translate(-50%, -50%) rotate(0.5turn) scaleX(-1);
+  left: 56.4%;
+  transform: translate(-50%, -50%) rotate(0.52turn) scaleX(-1);
   background: #29444a;
   background-repeat: no-repeat;
   clip-path: polygon(66% 87%, 74% 43%, 82% 100%, 18% 100%, 0% 38%);
@@ -430,12 +419,12 @@ body {
 }
 
 .hair-up-m {
-  width: 3%;
+  width: 2.9%;
   height: 10%;
   position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(0.53turn);
+  top: 44%;
+  left: 49.5%;
+  transform: translate(-50%, -50%) rotate(0.58turn);
   background: #29444a;
   background-repeat: no-repeat;
   clip-path: polygon(70% 90%, 74% 43%, 84% 100%, 0 100%, 0% 38%);
@@ -447,9 +436,23 @@ body {
   width: 3%;
   height: 5%;
   position: absolute;
-  top: 43%;
-  left: 48%;
-  transform: translate(-50%, -50%);
+  top: 42.3%;
+  left: 47%;
+  transform: translate(-50%, -50%) rotate(-0.1turn);
+  background: #29444a;
+  background-repeat: no-repeat;
+  clip-path: polygon(50% 0%, 21% 0, 68% 100%);
+
+  z-index: 1;
+}
+
+.hair-up-l{
+  width: 3%;
+  height: 5%;
+  position: absolute;
+  top: 42.1%;
+  left: 52.8%;
+  transform: translate(-50%, -50%) rotate(0.2turn);
   background: #29444a;
   background-repeat: no-repeat;
   clip-path: polygon(50% 0%, 21% 0, 68% 100%);
